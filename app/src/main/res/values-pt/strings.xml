@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">PojetoPDM</string>
+    <string name="Projects">Projetos</string>
+    <string name="Clients">Clientes</string>
+    <string name="Ambients">Ambientes</string>
+    <string name="MaterialsAndServices">Materiais e Serviçoes</string>
+    <string name="ARMeasure">Medição com AR</string>
+    <string name="Configurations">Configurações</string>
+    <string name="GestArq">GestArq</string>
+    <string name="Home">Início</string>
+    <string name="Functions">Funções</string>
+    <string name="Profile">Perfil</string>
+    <string name="List">Lista</string>
+    <string name="SearchProject">Buscar projetos</string>
+    <string name="SerachProjectByClient">Buscar projeto por cliente</string>
+    <string name="SearchProjectByAmbient">Buscar projeto por ambiente</string>
+    <string name="SearchProjectByStatus">Busca projeto por status</string>
+    <string name="CreateNewProject">Criar novo projeto</string>
+    <string name="ProjectName">Nome do projeto</string>
+    <string name="NewProject">Novo projeto</string>
+    <string name="ProjectStatus">Status do projeto</string>
+    <string name="Date_Start">Data de início</string>
+    <string name="Term">Prazo</string>
+    <string name="Client">Cliente</string>
+    <string name="Ambient">Ambiente</string>
+    <string name="ProjectBriefing">Briefing do projeto</string>
+    <string name="SearchClient">Buscar cliente</string>
+    <string name="CreateNewClient">Criar novo cliente</string>
+    <string name="ClientName">Nome do cliente</string>
+    <string name="EMail">E-mail</string>
+    <string name="PhoneNumber">Número de telefone</string>
+    <string name="Address">Endereço</string>
+    <string name="AdditionalNotes">Notas adicionais</string>
+    <string name="NewClient">Novo cliente</string>
+    <string name="Submit">Submeter</string>
+    <string name="SelectAClient">Selecione um cliente</string>
+    <string name="ProjectsList">Lista de projetos</string>
+    <string name="ProjectDetails">Detalhes do projeto</string>
+    <string name="NameTwoDots">Nome:</string>
+    <string name="ClientTwoDots">Cliente:</string>
+    <string name="StartDateTwoDots">Data de início:</string>
+    <string name="TermTwoDots">Prazo:</string>
+    <string name="ClientAlreadyExists">Cliente já existe</string>
+    <string name="FillAllFields">Preencha todos os campos</string>
+    <string name="ClientCreated">Cliente criado com sucesso</string>
+    <string name="StatusTwoDots">Status:</string>
+    <string name="ProjectCreated">Projeto criado com sucesso</string>
+    <string name="NewAmbient">Novo ambiente</string>
+    <string name="DeleteProject">Excluir projeto</string>
+    <string name="WishToDeleteProject">Tem certeza que deseja excluir este projeto?</string>
+    <string name="Yes">Sim</string>
+    <string name="No">Não</string>
+    <string name="SearchAmbient">Procurar ambiente</string>
+    <string name="CreateNewAmbient">Criar novo ambiente</string>
+    <string name="AmbientsProject">Projeto do ambiente</string>
+    <string name="AmbientName">Nome do ambiente</string>
+    <string name="Openings">Aberturas (portas, janelas)</string>
+    <string name="Area">Área</string>
+    <string name="ExistentMaterials">Materiais existentes</string>
+    <string name="ProposedMaterials">Materiais propostos</string>
+    <string name="SelectAProject">Por favor, selecione um projeto</string>
+    <string name="AmbientCreated">Ambiente criado com sucesso</string>
+    <string name="AmbientsList">Lista de ambientes</string>
+    <string name="SquareMeters">m²</string>
+    <string name="Language">Idioma</string>
+    <string name="ApplyChanges">Aplicar Mudanças</string>
+    <string name="User">Usuário</string>
+    <string name="EmailTwoDots">E-Mail:</string>
+    <string name="Ok">OK</string>
+    <string-array name="Languages">
+        <item>Português</item>
+        <item>Inglês</item>
+        <item>Espanhol</item>
+    </string-array>
+    <string-array name="ProjectFilters">
+        <item>Ordenar por nome do projeto</item>
+        <item>Ordenar por nome do cliente</item>
+        <item>Ordenar por data (mais recente)</item>
+    </string-array>
+
+    <string-array name="StatusOptions">
+        <item>Em andamento</item>
+        <item>Finalizado</item>
+    </string-array>
+</resources>

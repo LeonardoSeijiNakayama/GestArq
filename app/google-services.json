@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467480129052",
+    "project_id": "gestarqpdmfinal",
+    "storage_bucket": "gestarqpdmfinal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467480129052:android:0a43ba9ceddf5d2e6df9d9",
+        "android_client_info": {
+          "package_name": "com.example.pojetopdm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC95caVPl2jJb7soJBMSQoNSuneL-J-7FI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">PojetoPDM</string>
+    <string name="Projects">Projects</string>
+    <string name="Clients">Clients</string>
+    <string name="Ambients">Ambients</string>
+    <string name="MaterialsAndServices">Materials and Services</string>
+    <string name="ARMeasure">AR Measurement</string>
+    <string name="Configurations">Configurations</string>
+    <string name="GestArq">GestArq</string>
+    <string name="Home">Home</string>
+    <string name="Functions">Functions</string>
+    <string name="Profile">Profile</string>
+    <string name="List">List</string>
+    <string name="SearchProject">Search Projects</string>
+    <string name="SerachProjectByClient">Search Project by Client</string>
+    <string name="SearchProjectByAmbient">Search Project by Ambient</string>
+    <string name="SearchProjectByStatus">Search Project by Status</string>
+    <string name="CreateNewProject">Create New Project</string>
+    <string name="ProjectName">Project Name</string>
+    <string name="NewProject">New Project</string>
+    <string name="ProjectStatus">Project Status</string>
+    <string name="Date_Start">Start Date</string>
+    <string name="Term">Term</string>
+    <string name="Client">Client</string>
+    <string name="Ambient">Ambient</string>
+    <string name="ProjectBriefing">Project Briefing</string>
+    <string name="SearchClient">Search Client</string>
+    <string name="CreateNewClient">Create New Client</string>
+    <string name="ClientName">Client Name</string>
+    <string name="EMail">Email</string>
+    <string name="PhoneNumber">Phone Number</string>
+    <string name="Address">Address</string>
+    <string name="AdditionalNotes">Additional Notes</string>
+    <string name="NewClient">New Client</string>
+    <string name="Submit">Submit</string>
+    <string name="SelectAClient">Select a Client</string>
+    <string name="ProjectsList">Projects List</string>
+    <string name="ProjectDetails">Project Details</string>
+    <string name="NameTwoDots">Name:</string>
+    <string name="ClientTwoDots">Client:</string>
+    <string name="StartDateTwoDots">Start Date:</string>
+    <string name="TermTwoDots">Term:</string>
+    <string name="ClientAlreadyExists">Client Already Exists</string>
+    <string name="FillAllFields">Fill All Fields</string>
+    <string name="ClientCreated">Client Created Successfully</string>
+    <string name="StatusTwoDots">Status:</string>
+    <string name="ProjectCreated">Project Created Successfully</string>
+    <string name="NewAmbient">New Ambient</string>
+    <string name="DeleteProject">Delete Project</string>
+    <string name="WishToDeleteProject">Are you sure you want to delete this project?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="SearchAmbient">Search Ambient</string>
+    <string name="CreateNewAmbient">Create New Ambient</string>
+    <string name="AmbientsProject">Ambient Project</string>
+    <string name="AmbientName">Ambient Name</string>
+    <string name="Openings">Openings (doors, windows)</string>
+    <string name="Area">Area</string>
+    <string name="ExistentMaterials">Existing Materials</string>
+    <string name="ProposedMaterials">Proposed Materials</string>
+    <string name="SelectAProject">Please select a project</string>
+    <string name="AmbientCreated">Ambient Created Successfully</string>
+    <string name="AmbientsList">Ambients List</string>
+    <string name="SquareMeters">m²</string>
+    <string name="Language">Language</string>
+    <string name="ApplyChanges">Apply Changes</string>
+    <string name="User">User</string>
+    <string name="EmailTwoDots">E-Mail:</string>
+    <string name="Ok">OK</string>
+    <string-array name="Languages">
+        <item>Portuguese</item>
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+    <string-array name="ProjectFilters">
+        <item>Sort by project name</item>
+        <item>Sort by client name</item>
+        <item>Sort by date (most recent)</item>
+    </string-array>
+
+    <string-array name="StatusOptions">
+        <item>In Progress</item>
+        <item>Completed</item>
+    </string-array>
+</resources>

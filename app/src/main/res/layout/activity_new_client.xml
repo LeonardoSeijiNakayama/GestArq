@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewProjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/baseline_arrow_back_ios_new_24"
+            android:layout_margin="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/NewClient"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ClientName"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtName"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/EMail"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtEmail"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/PhoneNumber"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtPhoneNumber"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Address"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtAddress"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/AdditionalNotes"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtAdditionalNotes"
+            android:background="@drawable/edit_text_background"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/projects_button"
+            android:textColor="@color/black"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

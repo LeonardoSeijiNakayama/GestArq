@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.NewProjectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/baseline_arrow_back_ios_new_24"
+            android:layout_margin="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/NewProject"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ProjectName"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtProjectName"
+            android:background="@drawable/edit_text_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ProjectStatus"
+            android:layout_marginTop="8dp"
+            android:textSize="24dp"
+            android:paddingStart="14dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/spnStatus"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Date_Start"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtProjectStartDate"
+            android:background="@drawable/edit_text_background"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Term"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtProjectTerm"
+            android:background="@drawable/edit_text_background"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Client"
+            android:layout_marginTop="8dp"
+            android:textSize="24dp"
+            android:paddingStart="14dp"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:background="@drawable/edit_text_background"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/spinnerProjectType"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ProjectBriefing"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:id="@+id/edtxtProjectBriefing"
+            android:background="@drawable/edit_text_background"/>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Submit"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/projects_button"
+            android:textColor="@color/black"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

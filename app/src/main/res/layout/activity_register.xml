@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        android:layout_margin="30dp"
+        android:elevation="20dp"
+        android:background="@drawable/custom_edittext">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cadastro"
+                android:id="@+id/cadastroTexto"
+                android:gravity="center"
+                android:textSize="36sp"
+                android:textColor="@color/darkGray"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Nome"
+                android:padding="8dp"
+                android:id="@+id/nome"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="40dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_apps_24"
+                android:drawablePadding="8dp"
+                android:hint="seuEmail@gmail.com"
+                android:padding="8dp"
+                android:id="@+id/email"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Número de telefone"
+                android:padding="8dp"
+                android:id="@+id/telefone"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+                android:drawablePadding="8dp"
+                android:hint="Senha"
+                android:padding="8dp"
+                android:inputType="textPassword"
+                android:id="@+id/senha"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/botaoCadastro"
+                android:textSize="18sp"
+                android:text="Cadastrar"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/darkGray"
+                android:layout_marginTop="30dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

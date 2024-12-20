@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ProjectDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/baseline_arrow_back_ios_new_24"
+            android:layout_margin="14dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:text="@string/ProjectDetails"
+            android:layout_marginTop="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="14dp"
+            android:background="@drawable/edit_text_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/NameTwoDots"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/ProjectName"
+                android:textSize="20sp"
+                android:id="@+id/txtName"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="14dp"
+            android:background="@drawable/edit_text_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ClientTwoDots"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/ProjectName"
+                android:textSize="20sp"
+                android:id="@+id/txtClient"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="14dp"
+            android:background="@drawable/edit_text_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StatusTwoDots"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/ProjectName"
+                android:textSize="20sp"
+                android:id="@+id/txtStatus"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="14dp"
+            android:background="@drawable/edit_text_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StartDateTwoDots"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/ProjectName"
+                android:textSize="20sp"
+                android:id="@+id/txtDate"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="24dp"
+            android:paddingTop="14dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="14dp"
+            android:background="@drawable/edit_text_background">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TermTwoDots"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/ProjectName"
+                android:textSize="20sp"
+                android:id="@+id/txtTerm"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ProjectBriefing"
+                android:textSize="24sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_text_background"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:text="@string/ProjectBriefing"
+                android:id="@+id/txtBriefing"
+                android:paddingStart="24dp"
+                android:layout_marginBottom="8dp"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:id="@+id/btnAmbientsList"
+                android:text="@string/AmbientsList"
+                android:textColor="@color/black"
+                android:background="@drawable/projects_button"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

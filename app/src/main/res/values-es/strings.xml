@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">PojetoPDM</string>
+    <string name="Projects">Proyectos</string>
+    <string name="Clients">Clientes</string>
+    <string name="Ambients">Ambientes</string>
+    <string name="MaterialsAndServices">Materiales y Servicios</string>
+    <string name="ARMeasure">Medición con AR</string>
+    <string name="Configurations">Configuraciones</string>
+    <string name="GestArq">GestArq</string>
+    <string name="Home">Inicio</string>
+    <string name="Functions">Funciones</string>
+    <string name="Profile">Perfil</string>
+    <string name="List">Lista</string>
+    <string name="SearchProject">Buscar Proyectos</string>
+    <string name="SerachProjectByClient">Buscar Proyecto por Cliente</string>
+    <string name="SearchProjectByAmbient">Buscar Proyecto por Ambiente</string>
+    <string name="SearchProjectByStatus">Buscar Proyecto por Estado</string>
+    <string name="CreateNewProject">Crear Nuevo Proyecto</string>
+    <string name="ProjectName">Nombre del Proyecto</string>
+    <string name="NewProject">Nuevo Proyecto</string>
+    <string name="ProjectStatus">Estado del Proyecto</string>
+    <string name="Date_Start">Fecha de Inicio</string>
+    <string name="Term">Término</string>
+    <string name="Client">Cliente</string>
+    <string name="Ambient">Ambiente</string>
+    <string name="ProjectBriefing">Breve del Proyecto</string>
+    <string name="SearchClient">Buscar Cliente</string>
+    <string name="CreateNewClient">Crear Nuevo Cliente</string>
+    <string name="ClientName">Nombre del Cliente</string>
+    <string name="EMail">Correo Electrónico</string>
+    <string name="PhoneNumber">Número de Teléfono</string>
+    <string name="Address">Dirección</string>
+    <string name="AdditionalNotes">Notas Adicionales</string>
+    <string name="NewClient">Nuevo Cliente</string>
+    <string name="Submit">Enviar</string>
+    <string name="SelectAClient">Seleccione un Cliente</string>
+    <string name="ProjectsList">Lista de Proyectos</string>
+    <string name="ProjectDetails">Detalles del Proyecto</string>
+    <string name="NameTwoDots">Nombre:</string>
+    <string name="ClientTwoDots">Cliente:</string>
+    <string name="StartDateTwoDots">Fecha de Inicio:</string>
+    <string name="TermTwoDots">Término:</string>
+    <string name="ClientAlreadyExists">El Cliente ya Existe</string>
+    <string name="FillAllFields">Rellene todos los campos</string>
+    <string name="ClientCreated">Cliente creado con éxito</string>
+    <string name="StatusTwoDots">Estado:</string>
+    <string name="ProjectCreated">Proyecto creado con éxito</string>
+    <string name="NewAmbient">Nuevo Ambiente</string>
+    <string name="DeleteProject">Eliminar Proyecto</string>
+    <string name="WishToDeleteProject">¿Está seguro de que desea eliminar este proyecto?</string>
+    <string name="Yes">Sí</string>
+    <string name="No">No</string>
+    <string name="SearchAmbient">Buscar Ambiente</string>
+    <string name="CreateNewAmbient">Crear Nuevo Ambiente</string>
+    <string name="AmbientsProject">Proyecto del Ambiente</string>
+    <string name="AmbientName">Nombre del Ambiente</string>
+    <string name="Openings">Aberturas (puertas, ventanas)</string>
+    <string name="Area">Área</string>
+    <string name="ExistentMaterials">Materiales Existentes</string>
+    <string name="ProposedMaterials">Materiales Propuestos</string>
+    <string name="SelectAProject">Por favor, seleccione un proyecto</string>
+    <string name="AmbientCreated">Ambiente creado con éxito</string>
+    <string name="AmbientsList">Lista de Ambientes</string>
+    <string name="SquareMeters">m²</string>
+    <string name="Language">Idioma</string>
+    <string name="ApplyChanges">Aplicar Cambios</string>
+    <string name="User">Usuario</string>
+    <string name="EmailTwoDots">Correo Electrónico:</string>
+    <string name="Ok">OK</string>
+    <string-array name="Languages">
+        <item>Portugués</item>
+        <item>Inglés</item>
+        <item>Español</item>
+    </string-array>
+    <string-array name="ProjectFilters">
+        <item>Ordenar por nombre del proyecto</item>
+        <item>Ordenar por nombre del cliente</item>
+        <item>Ordenar por fecha (más reciente)</item>
+    </string-array>
+
+    <string-array name="StatusOptions">
+        <item>En progreso</item>
+        <item>Finalizado</item>
+    </string-array>
+</resources>

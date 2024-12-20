@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".fragments.UserFragment">
+
+
+    <TextView
+        android:id="@+id/textoperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="Perfil"
+        android:textColor="@color/darkGray"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/container_user"
+        android:elevation="20dp"
+        app:cardCornerRadius="240dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/baseline_person_24"
+                android:backgroundTint="@color/darkGray"
+                android:padding="8dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nomeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="8dp"
+        android:textColorHighlight="@color/black"
+        android:drawableTint="@color/darkGray"
+        android:paddingLeft="40dp"
+        android:text=""
+        android:textColor="@color/darkGray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/botaoLogout"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_new_24"
+        android:drawableTint="@color/black"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColor="@color/darkGray"
+        android:textSize="15sp" />
+
+</LinearLayout>
